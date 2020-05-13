@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="526.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.MainPageController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="559.0" layoutY="40.0" prefHeight="394.0" prefWidth="293.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@new_game.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resume_game.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="7.0" layoutY="88.0" mnemonicParsing="false" opacity="0.0" prefHeight="44.0" prefWidth="192.0" text="Button" />
+            <ImageView fitHeight="36.0" fitWidth="164.0" layoutX="108.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@exit.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@settings.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="52.0" layoutY="35.0" mnemonicParsing="false" onAction="#New_Game" opacity="0.0" prefHeight="41.0" prefWidth="210.0" />
+            <Button layoutX="58.0" layoutY="101.0" mnemonicParsing="false" onAction="#Resume_Game" opacity="0.0" prefHeight="41.0" prefWidth="210.0" />
+            <Button layoutX="36.0" layoutY="176.0" mnemonicParsing="false" onAction="#Settings" opacity="0.0" prefHeight="53.0" prefWidth="226.0" />
+            <Button layoutX="56.0" layoutY="325.0" mnemonicParsing="false" onAction="#Exit" opacity="0.0" prefHeight="55.0" prefWidth="210.0" text="Button" />
+            <ImageView fitHeight="43.0" fitWidth="200.0" layoutX="88.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@level.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="35.0" layoutY="250.0" mnemonicParsing="false" onAction="#Level" opacity="0.0" prefHeight="64.0" prefWidth="226.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="108.0" layoutY="36.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="62.0" fitWidth="220.0" layoutX="9.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@title1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="101.0" layoutX="65.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@title2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="220.0" layoutX="-3.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@title3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
